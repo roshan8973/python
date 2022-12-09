@@ -1,1 +1,9 @@
-print("hi")
+sum= 0
+i= 10
+while i>0:
+    print("Enter number")
+    num=int(input())
+    sum=sum+num
+    i=i-1
+print("The average is")
+print(sum/10)
